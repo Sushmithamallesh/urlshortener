@@ -1,0 +1,31 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "Just a small url shortener with nodeJS/ express and Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main",
+    "dev": "nodemon main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sushmithamallesh/urlshortener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sushmithamallesh/urlshortener/issues"
+  },
+  "homepage": "https://github.com/Sushmithamallesh/urlshortener#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "short-id": "^0.1.0-1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
